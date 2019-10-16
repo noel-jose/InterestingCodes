@@ -70,9 +70,10 @@ void display()
 			printf("%d  ",q.arr[i]);
 	}
 }
-int main()
+int main() 
 {
-	int c=0,n;
+	int c=0; // initialising local varibles
+        int n;
 	while(c!=6)
 	{
 		printf("\nEnter the choice:\n 1.Insert at Front\n 2.Insert at End\n 3.Delete from Front\n 4.Delete from End\n 5.Display\n 6.End\n");
